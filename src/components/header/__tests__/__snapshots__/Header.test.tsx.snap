@@ -1,0 +1,212 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`<Header /> > renders the component 1`] = `
+.c0 {
+  width: clamp(16rem,95vw,90rem);
+}
+
+.c1 {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr auto;
+  margin: 0 auto;
+  padding: 1rem 1rem;
+  gap: 1rem;
+}
+
+.c2 {
+  text-align: center;
+}
+
+.c3 {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.c4 {
+  border-radius: 5px;
+  padding: 1rem;
+  cursor: pointer;
+  background-color: white;
+  border: 2px solid #e9ecee;
+}
+
+@media (min-width: 750px) {
+  .c1 {
+    grid-template-columns: minmax(max-content,1fr) 1fr;
+    grid-template-rows: 1fr;
+  }
+}
+
+@media (min-width: 750px) {
+  .c2 {
+    text-align: left;
+  }
+}
+
+@media (min-width: 750px) {
+  .c3 {
+    justify-content: flex-end;
+  }
+}
+
+<div>
+  <header>
+    <div
+      class="c0 c1"
+    >
+      <h1
+        class="c2"
+      >
+        Star Wars Characters
+      </h1>
+      <form
+        class="c3"
+        role="search"
+      >
+        <div>
+          SearchInput
+        </div>
+        <button
+          aria-label="Search for Star Wars characters by name"
+          class="c4"
+          data-testid="search-form-submit-testid"
+          type="submit"
+        >
+          <svg
+            aria-label="Search for Star Wars characters by name"
+            fill="none"
+            height="24"
+            stroke="#5da647"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            viewBox="0 0 24 24"
+            width="24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <circle
+              cx="11"
+              cy="11"
+              r="8"
+            />
+            <line
+              x1="21"
+              x2="16.65"
+              y1="21"
+              y2="16.65"
+            />
+          </svg>
+        </button>
+      </form>
+    </div>
+  </header>
+</div>
+`;
+
+exports[`<Header /> > when isPending is true > should disable the form submit button 1`] = `
+.c0 {
+  width: clamp(16rem,95vw,90rem);
+}
+
+.c1 {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr auto;
+  margin: 0 auto;
+  padding: 1rem 1rem;
+  gap: 1rem;
+}
+
+.c2 {
+  text-align: center;
+}
+
+.c3 {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.c4 {
+  border-radius: 5px;
+  padding: 1rem;
+  cursor: not-allowed;
+  background-color: #e9ecee;
+  border: 2px solid #e9ecee;
+}
+
+@media (min-width: 750px) {
+  .c1 {
+    grid-template-columns: minmax(max-content,1fr) 1fr;
+    grid-template-rows: 1fr;
+  }
+}
+
+@media (min-width: 750px) {
+  .c2 {
+    text-align: left;
+  }
+}
+
+@media (min-width: 750px) {
+  .c3 {
+    justify-content: flex-end;
+  }
+}
+
+<div>
+  <header>
+    <div
+      class="c0 c1"
+    >
+      <h1
+        class="c2"
+      >
+        Star Wars Characters
+      </h1>
+      <form
+        class="c3"
+        role="search"
+      >
+        <div>
+          SearchInput
+        </div>
+        <button
+          aria-label="Search for Star Wars characters by name"
+          class="c4"
+          data-testid="search-form-submit-testid"
+          disabled=""
+          type="submit"
+        >
+          <svg
+            aria-label="Search for Star Wars characters by name"
+            fill="none"
+            height="24"
+            stroke="#5da647"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            viewBox="0 0 24 24"
+            width="24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <circle
+              cx="11"
+              cy="11"
+              r="8"
+            />
+            <line
+              x1="21"
+              x2="16.65"
+              y1="21"
+              y2="16.65"
+            />
+          </svg>
+        </button>
+      </form>
+    </div>
+  </header>
+</div>
+`;

@@ -1,0 +1,27 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`<TableHead /> > renders the component 1`] = `
+.c0 {
+  display: none;
+}
+
+@media (min-width: 750px) {
+  .c0 {
+    display: revert;
+  }
+}
+
+<div>
+  <table>
+    <thead
+      class="c0"
+    >
+      <tr>
+        <td>
+          ABC
+        </td>
+      </tr>
+    </thead>
+  </table>
+</div>
+`;

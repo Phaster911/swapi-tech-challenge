@@ -1,0 +1,100 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`<SearchInput /> > renders the component 1`] = `
+.c0 {
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: auto;
+  display: flex;
+  align-items: stretch;
+  justify-content: stretch;
+}
+
+.c1 {
+  flex: 1;
+  background-color: white;
+  border: 2px solid #e9ecee;
+  border-radius: 5px;
+  padding: 0.8rem;
+  cursor: auto;
+}
+
+@media (min-width: 750px) {
+  .c0 {
+    flex-grow: 0.6;
+  }
+}
+
+<div>
+  <label
+    class="c0"
+    for=":r0:"
+  >
+    <span
+      style="display: inline-block; position: absolute; overflow: hidden; height: 1px; width: 1px; margin: -1px; padding: 0px; border: 0px;"
+    >
+      Search for Star Wars characters by name
+    </span>
+    <input
+      aria-label="Search for Star Wars characters by name"
+      class="c1"
+      data-testid="search-input-testid"
+      id=":r0:"
+      name="search"
+      placeholder="Search by character name"
+      type="search"
+      value=""
+    />
+  </label>
+</div>
+`;
+
+exports[`<SearchInput /> > when the input disabled is true > renders the component 1`] = `
+.c0 {
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: auto;
+  display: flex;
+  align-items: stretch;
+  justify-content: stretch;
+}
+
+.c1 {
+  flex: 1;
+  background-color: #e9ecee;
+  border: 2px solid #e9ecee;
+  border-radius: 5px;
+  padding: 0.8rem;
+  cursor: not-allowed;
+}
+
+@media (min-width: 750px) {
+  .c0 {
+    flex-grow: 0.6;
+  }
+}
+
+<div>
+  <label
+    class="c0"
+    for=":r1:"
+  >
+    <span
+      style="display: inline-block; position: absolute; overflow: hidden; height: 1px; width: 1px; margin: -1px; padding: 0px; border: 0px;"
+    >
+      Search for Star Wars characters by name
+    </span>
+    <input
+      aria-label="Search for Star Wars characters by name"
+      class="c1"
+      data-testid="search-input-testid"
+      disabled=""
+      id=":r1:"
+      name="search"
+      placeholder="Search by character name"
+      type="search"
+      value=""
+    />
+  </label>
+</div>
+`;

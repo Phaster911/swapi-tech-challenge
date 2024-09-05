@@ -1,0 +1,245 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`<CharacterTable /> > renders the component 1`] = `
+.c2 {
+  display: none;
+}
+
+.c3 {
+  --radius: calc(5px * 2);
+  background-color: #e9ecee;
+  text-align: left;
+  padding: 1.5rem 0.5rem;
+}
+
+.c3:first-of-type {
+  border-top-left-radius: var(--radius);
+  border-bottom-left-radius: var(--radius);
+}
+
+.c3:last-of-type {
+  border-top-right-radius: var(--radius);
+  border-bottom-right-radius: var(--radius);
+}
+
+.c5 {
+  --radius: calc(5px * 2);
+  padding: 0.5rem;
+  display: grid;
+  grid-template-columns: 15ch auto;
+  gap: 0.5rem;
+  text-align: left;
+}
+
+.c5:first-child {
+  border-top-left-radius: var(--radius);
+  border-top-right-radius: var(--radius);
+}
+
+.c5:last-child {
+  border-bottom-left-radius: var(--radius);
+  border-bottom-right-radius: var(--radius);
+}
+
+.c5::before {
+  content: attr(data-cell) ": ";
+  text-transform: capitalize;
+  font-weight: 700;
+}
+
+.c4:nth-child(even) td {
+  background-color: #f0f0f0;
+  overflow: hidden;
+}
+
+.c4:last-child {
+  border-bottom: revert;
+}
+
+.c1 {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+
+.c0 {
+  background-color: white;
+  border-radius: calc(5px * 2);
+  padding: 1rem;
+}
+
+@media (min-width: 750px) {
+  .c2 {
+    display: revert;
+  }
+}
+
+@media (min-width: 750px) {
+  .c5 {
+    display: revert;
+    padding: 1rem 0.5rem;
+  }
+
+  .c5::before {
+    display: none;
+  }
+
+  .c5:first-child {
+    border-top-left-radius: var(--radius);
+    border-bottom-left-radius: var(--radius);
+    border-top-right-radius: 0;
+  }
+
+  .c5:last-child {
+    border-top-right-radius: var(--radius);
+    border-bottom-right-radius: var(--radius);
+    border-bottom-left-radius: 0;
+  }
+}
+
+@media (min-width: 750px) {
+  .c0 {
+    padding: 2rem;
+  }
+}
+
+<div>
+  <div
+    class="c0"
+  >
+    <table
+      class="c1"
+    >
+      <caption
+        id="table-caption"
+      >
+        <span
+          style="display: inline-block; position: absolute; overflow: hidden; height: 1px; width: 1px; margin: -1px; padding: 0px; border: 0px;"
+        >
+          Star Wars characters table
+        </span>
+      </caption>
+      <thead
+        class="c2"
+      >
+        <tr>
+          <th
+            class="c3"
+          >
+            NAME
+          </th>
+          <th
+            class="c3"
+          >
+            GENDER
+          </th>
+          <th
+            class="c3"
+          >
+            BIRTH YEAR
+          </th>
+          <th
+            class="c3"
+          >
+            MASS
+          </th>
+          <th
+            class="c3"
+          >
+            HEIGHT
+          </th>
+          <th
+            class="c3"
+          >
+            FILMS STARRED
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr
+          class="c4"
+          data-testid="table-row"
+        >
+          <td
+            class="c5"
+            data-cell="name"
+          >
+            name-1
+          </td>
+          <td
+            class="c5"
+            data-cell="gender"
+          >
+            gender-1
+          </td>
+          <td
+            class="c5"
+            data-cell="birth year"
+          >
+            year-1
+          </td>
+          <td
+            class="c5"
+            data-cell="height"
+          >
+            height-1
+          </td>
+          <td
+            class="c5"
+            data-cell="mass"
+          >
+            mass-1
+          </td>
+          <td
+            class="c5"
+            data-cell="films entered"
+          >
+            0
+          </td>
+        </tr>
+        <tr
+          class="c4"
+          data-testid="table-row"
+        >
+          <td
+            class="c5"
+            data-cell="name"
+          >
+            name-2
+          </td>
+          <td
+            class="c5"
+            data-cell="gender"
+          >
+            gender-2
+          </td>
+          <td
+            class="c5"
+            data-cell="birth year"
+          >
+            year-2
+          </td>
+          <td
+            class="c5"
+            data-cell="height"
+          >
+            height-2
+          </td>
+          <td
+            class="c5"
+            data-cell="mass"
+          >
+            mass-2
+          </td>
+          <td
+            class="c5"
+            data-cell="films entered"
+          >
+            2
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+`;

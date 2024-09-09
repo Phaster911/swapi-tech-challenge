@@ -1,0 +1,70 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`<MessageContainer /> > when isError is true > renders the error message 1`] = `
+.c0 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  text-align: center;
+}
+
+<div>
+  <section>
+    <div
+      class="c0"
+    >
+      <div>
+        ErrorMessage
+      </div>
+    </div>
+  </section>
+</div>
+`;
+
+exports[`<MessageContainer /> > when isPending is true > renders the loading message 1`] = `
+.c0 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  text-align: center;
+}
+
+<div>
+  <section>
+    <div
+      class="c0"
+    >
+      <div>
+        LoadingMessage
+      </div>
+    </div>
+  </section>
+</div>
+`;
+
+exports[`<MessageContainer /> > when isSuccess is true and there are no results > renders the no results message 1`] = `
+.c0 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  text-align: center;
+}
+
+<div>
+  <section>
+    <div
+      class="c0"
+    >
+      <div>
+        NoResultsMessage
+      </div>
+    </div>
+  </section>
+</div>
+`;

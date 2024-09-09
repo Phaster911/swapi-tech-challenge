@@ -1,0 +1,66 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`<ErrorMessage /> > renders the component 1`] = `
+.c0 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  text-align: center;
+}
+
+.c1 {
+  background-color: white;
+  border-radius: 5px;
+  border: none;
+  padding: 0.5rem 0.75rem;
+  cursor: pointer;
+  display: flex;
+  gap: 1rem;
+}
+
+<div>
+  <div
+    aria-labelledby="error-message-title"
+    aria-live="assertive"
+    class="c0"
+    role="alert"
+  >
+    <h2
+      id="error-message-title"
+    >
+      Error: Unable to complete search
+    </h2>
+    <p>
+      There was a problem processing your request. Please try again.
+    </p>
+    <button
+      aria-label="try again"
+      class="c1"
+      data-testid="try-again-testid"
+      id="try-again-button"
+    >
+      Try Again
+      <svg
+        fill="none"
+        height="24"
+        stroke="currentColor"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-width="2"
+        viewBox="0 0 24 24"
+        width="24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <polyline
+          points="1 4 1 10 7 10"
+        />
+        <path
+          d="M3.51 15a9 9 0 1 0 2.13-9.36L1 10"
+        />
+      </svg>
+    </button>
+  </div>
+</div>
+`;

@@ -1,0 +1,13 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`<MaxWidthWrapper /> > renders the component 1`] = `
+.c0 {
+  width: clamp(16rem,95vw,90rem);
+}
+
+<div>
+  <div
+    class="c0"
+  />
+</div>
+`;

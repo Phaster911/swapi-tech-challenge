@@ -1,0 +1,31 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`<Footer /> > renders the component 1`] = `
+.c0 {
+  width: clamp(16rem,95vw,90rem);
+}
+
+.c1 {
+  padding: 1rem;
+  margin: 0 auto;
+  text-align: center;
+}
+
+@media (min-width: 750px) {
+  .c1 {
+    padding: 2rem;
+  }
+}
+
+<div>
+  <footer>
+    <div
+      class="c0 c1"
+    >
+      <p>
+        © 2024 This Website. All Rights Reserved.
+      </p>
+    </div>
+  </footer>
+</div>
+`;

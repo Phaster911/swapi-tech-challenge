@@ -1,0 +1,20 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`<App /> > renders the component 1`] = `
+.c0 {
+  height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  color: #111111;
+}
+
+<div>
+  <div
+    class="c0"
+  >
+    <div>
+      Home
+    </div>
+  </div>
+</div>
+`;

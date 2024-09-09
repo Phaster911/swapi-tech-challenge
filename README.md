@@ -1,50 +1,73 @@
-# React + TypeScript + Vite
+# SWAPI Tech Challenge
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This Web App lets users search for [Star Wars Characters](https://swapi.dev/api/people/) available in SWAPI.
 
-Currently, two official plugins are available:
+Below, there's an overview of what the app looks like, in both desktop and mobile
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Desktop
 
-## Expanding the ESLint configuration
+<img alt="printscreen of desktop layout" src="./docs/desktop-view.png">
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+### Mobile
 
-- Configure the top-level `parserOptions` property like this:
+<img alt="printscreen of mobile layout" src="./docs/mobile-view.png">
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+## System Requirements
+
+- [NodeJs](https://nodejs.org/en) - Javascript Runtime
+
+## Install Dependencies
+
+```shell
+$ npm install
 ```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+## Stack description
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+- [react](https://react.dev/) as a frontend library
+- [react-query](https://tanstack.com/query/latest) as a server state manager
+- [styled-components](https://styled-components.com/) as a css-in-js solution
+- [react-feather](https://feathericons.com/) as the source of the apps icons
+- [vitest](https://vitest.dev/) as the unit test runner
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
+## Available Scripts
+
+#### npm start
+
+```shell
+$ npm start
 ```
+
+This command will start the app in development mode in this address: http://localhost:5173/
+
+#### npm build
+
+```shell
+$ npm run build
+```
+
+This command will build the app in production mode and place the compiled app inside the `dist` folder in the root directory.
+
+#### npm test
+
+```shell
+$ npm test
+```
+
+This command will run all the unit tests present in this repo.
+
+#### npm test:watch
+
+```shell
+$ npm run test:watch
+```
+
+This command will run all the unit tests present in this repo in watch mode, i.e it will watch for changes in the files and run the unit tests when the files change.
+
+#### npm run preview
+
+```shell
+$ npm run preview
+```
+
+This command will run the app on a local server but `npm run build` must be ran first.

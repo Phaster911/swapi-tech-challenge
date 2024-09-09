@@ -1,0 +1,42 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`<CharacterTableRow /> > renders the component 1`] = `
+.c0:nth-child(even) td {
+  background-color: #f0f0f0;
+  overflow: hidden;
+}
+
+.c0:last-child {
+  border-bottom: revert;
+}
+
+<div>
+  <table>
+    <tbody>
+      <tr
+        class="c0"
+        data-testid="table-row"
+      >
+        <td>
+          CharacterTableData
+        </td>
+        <td>
+          CharacterTableData
+        </td>
+        <td>
+          CharacterTableData
+        </td>
+        <td>
+          CharacterTableData
+        </td>
+        <td>
+          CharacterTableData
+        </td>
+        <td>
+          CharacterTableData
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+`;

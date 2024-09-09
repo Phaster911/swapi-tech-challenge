@@ -1,0 +1,1274 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`<Home /> > renders the component 1`] = `
+.c4 {
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: auto;
+  display: flex;
+  align-items: stretch;
+  justify-content: stretch;
+}
+
+.c5 {
+  flex: 1;
+  background-color: white;
+  border: 2px solid #e9ecee;
+  border-radius: 5px;
+  padding: 0.8rem;
+  cursor: auto;
+}
+
+.c0 {
+  width: clamp(16rem,95vw,90rem);
+}
+
+.c1 {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr auto;
+  margin: 0 auto;
+  padding: 1rem 1rem;
+  gap: 1rem;
+}
+
+.c2 {
+  text-align: center;
+}
+
+.c3 {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.c6 {
+  border-radius: 5px;
+  padding: 1rem;
+  cursor: pointer;
+  background-color: white;
+  border: 2px solid #e9ecee;
+}
+
+.c12 {
+  display: none;
+}
+
+.c13 {
+  --radius: calc(5px * 2);
+  background-color: #e9ecee;
+  text-align: left;
+  padding: 1.5rem 0.5rem;
+}
+
+.c13:first-of-type {
+  border-top-left-radius: var(--radius);
+  border-bottom-left-radius: var(--radius);
+}
+
+.c13:last-of-type {
+  border-top-right-radius: var(--radius);
+  border-bottom-right-radius: var(--radius);
+}
+
+.c15 {
+  --radius: calc(5px * 2);
+  padding: 0.5rem;
+  display: grid;
+  grid-template-columns: 15ch auto;
+  gap: 0.5rem;
+  text-align: left;
+}
+
+.c15:first-child {
+  border-top-left-radius: var(--radius);
+  border-top-right-radius: var(--radius);
+}
+
+.c15:last-child {
+  border-bottom-left-radius: var(--radius);
+  border-bottom-right-radius: var(--radius);
+}
+
+.c15::before {
+  content: attr(data-cell) ": ";
+  text-transform: capitalize;
+  font-weight: 700;
+}
+
+.c14:nth-child(even) td {
+  background-color: #f0f0f0;
+  overflow: hidden;
+}
+
+.c14:last-child {
+  border-bottom: revert;
+}
+
+.c11 {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+
+.c10 {
+  background-color: white;
+  border-radius: calc(5px * 2);
+  padding: 1rem;
+}
+
+.c9 {
+  flex-grow: 1;
+}
+
+.c16 {
+  display: flex;
+  justify-content: center;
+}
+
+.c18 {
+  padding: 0.5rem;
+  cursor: pointer;
+  margin-left: 0.2rem;
+  margin-right: 0.2rem;
+  width: 2rem;
+  border-radius: 5px;
+  border: none;
+  background-color: white;
+}
+
+.c18:disabled {
+  background-color: #bfbfbf;
+  cursor: not-allowed;
+}
+
+.c19 {
+  padding: 0.5rem;
+  cursor: pointer;
+  margin-left: 0.2rem;
+  margin-right: 0.2rem;
+  width: 2rem;
+  border-radius: 5px;
+  border: none;
+  background-color: #5da647;
+}
+
+.c19:disabled {
+  background-color: #bfbfbf;
+  cursor: not-allowed;
+}
+
+.c20 {
+  display: inline-block;
+  padding: 0.5rem 0 0 0;
+  cursor: default;
+  margin-left: 0.2rem;
+  margin-right: 0.2rem;
+  min-width: 1rem;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.c17 {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+
+.c7 {
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: auto;
+  background-color: #e9ecee;
+}
+
+.c8 {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  height: 100%;
+}
+
+@media (min-width: 750px) {
+  .c4 {
+    flex-grow: 0.6;
+  }
+}
+
+@media (min-width: 750px) {
+  .c1 {
+    grid-template-columns: minmax(max-content,1fr) 1fr;
+    grid-template-rows: 1fr;
+  }
+}
+
+@media (min-width: 750px) {
+  .c2 {
+    text-align: left;
+  }
+}
+
+@media (min-width: 750px) {
+  .c3 {
+    justify-content: flex-end;
+  }
+}
+
+@media (min-width: 750px) {
+  .c12 {
+    display: revert;
+  }
+}
+
+@media (min-width: 750px) {
+  .c15 {
+    display: revert;
+    padding: 1rem 0.5rem;
+  }
+
+  .c15::before {
+    display: none;
+  }
+
+  .c15:first-child {
+    border-top-left-radius: var(--radius);
+    border-bottom-left-radius: var(--radius);
+    border-top-right-radius: 0;
+  }
+
+  .c15:last-child {
+    border-top-right-radius: var(--radius);
+    border-bottom-right-radius: var(--radius);
+    border-bottom-left-radius: 0;
+  }
+}
+
+@media (min-width: 750px) {
+  .c10 {
+    padding: 2rem;
+  }
+}
+
+@media (min-width: 750px) {
+  .c18 {
+    margin-left: 0.25rem;
+    margin-right: 0.25rem;
+    width: 2.5rem;
+  }
+}
+
+@media (min-width: 750px) {
+  .c19 {
+    margin-left: 0.25rem;
+    margin-right: 0.25rem;
+    width: 2.5rem;
+  }
+}
+
+@media (min-width: 750px) {
+  .c8 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    gap: 2rem;
+  }
+}
+
+<div>
+  <header>
+    <div
+      class="c0 c1"
+    >
+      <h1
+        class="c2"
+      >
+        Star Wars Characters
+      </h1>
+      <form
+        class="c3"
+        role="search"
+      >
+        <label
+          class="c4"
+          for=":r0:"
+        >
+          <span
+            style="display: inline-block; position: absolute; overflow: hidden; height: 1px; width: 1px; margin: -1px; padding: 0px; border: 0px;"
+          >
+            Search for Star Wars characters by name
+          </span>
+          <input
+            aria-label="Search for Star Wars characters by name"
+            class="c5"
+            data-testid="search-input-testid"
+            id=":r0:"
+            name="search"
+            placeholder="Search by character name"
+            type="search"
+            value=""
+          />
+        </label>
+        <button
+          aria-label="Search for Star Wars characters by name"
+          class="c6"
+          data-testid="search-form-submit-testid"
+          type="submit"
+        >
+          <svg
+            aria-label="Search for Star Wars characters by name"
+            fill="none"
+            height="24"
+            stroke="#5da647"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            viewBox="0 0 24 24"
+            width="24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <circle
+              cx="11"
+              cy="11"
+              r="8"
+            />
+            <line
+              x1="21"
+              x2="16.65"
+              y1="21"
+              y2="16.65"
+            />
+          </svg>
+        </button>
+      </form>
+    </div>
+  </header>
+  <main
+    class="c7"
+  >
+    <div
+      class="c0 c8"
+    >
+      <section
+        aria-labelledby="table-caption"
+        class="c9"
+      >
+        <div
+          class="c10"
+        >
+          <table
+            class="c11"
+          >
+            <caption
+              id="table-caption"
+            >
+              <span
+                style="display: inline-block; position: absolute; overflow: hidden; height: 1px; width: 1px; margin: -1px; padding: 0px; border: 0px;"
+              >
+                Star Wars characters table
+              </span>
+            </caption>
+            <thead
+              class="c12"
+            >
+              <tr>
+                <th
+                  class="c13"
+                >
+                  NAME
+                </th>
+                <th
+                  class="c13"
+                >
+                  GENDER
+                </th>
+                <th
+                  class="c13"
+                >
+                  BIRTH YEAR
+                </th>
+                <th
+                  class="c13"
+                >
+                  MASS
+                </th>
+                <th
+                  class="c13"
+                >
+                  HEIGHT
+                </th>
+                <th
+                  class="c13"
+                >
+                  FILMS STARRED
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr
+                class="c14"
+                data-testid="table-row"
+              >
+                <td
+                  class="c15"
+                  data-cell="name"
+                >
+                  name-1
+                </td>
+                <td
+                  class="c15"
+                  data-cell="gender"
+                >
+                  gender-1
+                </td>
+                <td
+                  class="c15"
+                  data-cell="birth year"
+                >
+                  year-1
+                </td>
+                <td
+                  class="c15"
+                  data-cell="height"
+                >
+                  height-1
+                </td>
+                <td
+                  class="c15"
+                  data-cell="mass"
+                >
+                  mass-1
+                </td>
+                <td
+                  class="c15"
+                  data-cell="films entered"
+                >
+                  0
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+      <section
+        class="c16"
+      >
+        <nav
+          aria-label="Pagination Navigation"
+          role="navigation"
+        >
+          <ol
+            class="c17"
+          >
+            <li>
+              <button
+                class="c18"
+                data-testid="pagination-previous-button-testid"
+                disabled=""
+              >
+                <svg
+                  aria-label="Previous Page"
+                  fill="none"
+                  height="24"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  viewBox="0 0 24 24"
+                  width="24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <polyline
+                    points="15 18 9 12 15 6"
+                  />
+                </svg>
+                <span
+                  style="display: inline-block; position: absolute; overflow: hidden; height: 1px; width: 1px; margin: -1px; padding: 0px; border: 0px;"
+                >
+                  Previous Page
+                </span>
+              </button>
+            </li>
+            <li>
+              <button
+                aria-current="true"
+                aria-label="Page 1"
+                class="c19"
+                data-testid="pagination-1-button-testid"
+              >
+                1
+              </button>
+            </li>
+            <li>
+              <button
+                aria-label="Page 2"
+                class="c18"
+                data-testid="pagination-2-button-testid"
+              >
+                2
+              </button>
+            </li>
+            <li>
+              <span
+                aria-label="ellipsis indicating non-visible pages"
+                class="c20"
+              >
+                ...
+              </span>
+            </li>
+            <li>
+              <button
+                aria-label="Page 5"
+                class="c18"
+                data-testid="pagination-5-button-testid"
+              >
+                5
+              </button>
+            </li>
+            <li>
+              <button
+                class="c18"
+                data-testid="pagination-next-button-testid"
+              >
+                <svg
+                  aria-label="Next Page"
+                  fill="none"
+                  height="24"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  viewBox="0 0 24 24"
+                  width="24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <polyline
+                    points="9 18 15 12 9 6"
+                  />
+                </svg>
+                <span
+                  style="display: inline-block; position: absolute; overflow: hidden; height: 1px; width: 1px; margin: -1px; padding: 0px; border: 0px;"
+                >
+                  Next Page
+                </span>
+              </button>
+            </li>
+          </ol>
+        </nav>
+      </section>
+    </div>
+  </main>
+  <div>
+    Footer
+  </div>
+</div>
+`;
+
+exports[`<Home /> > when an error occurs > renders an error message and when the user clicks on the try again button, it calls the refetch function 1`] = `
+.c4 {
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: auto;
+  display: flex;
+  align-items: stretch;
+  justify-content: stretch;
+}
+
+.c5 {
+  flex: 1;
+  background-color: white;
+  border: 2px solid #e9ecee;
+  border-radius: 5px;
+  padding: 0.8rem;
+  cursor: auto;
+}
+
+.c0 {
+  width: clamp(16rem,95vw,90rem);
+}
+
+.c1 {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr auto;
+  margin: 0 auto;
+  padding: 1rem 1rem;
+  gap: 1rem;
+}
+
+.c2 {
+  text-align: center;
+}
+
+.c3 {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.c6 {
+  border-radius: 5px;
+  padding: 1rem;
+  cursor: pointer;
+  background-color: white;
+  border: 2px solid #e9ecee;
+}
+
+.c9 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  text-align: center;
+}
+
+.c10 {
+  background-color: white;
+  border-radius: 5px;
+  border: none;
+  padding: 0.5rem 0.75rem;
+  cursor: pointer;
+  display: flex;
+  gap: 1rem;
+}
+
+.c7 {
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: auto;
+  background-color: #e9ecee;
+}
+
+.c8 {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  height: 100%;
+}
+
+@media (min-width: 750px) {
+  .c4 {
+    flex-grow: 0.6;
+  }
+}
+
+@media (min-width: 750px) {
+  .c1 {
+    grid-template-columns: minmax(max-content,1fr) 1fr;
+    grid-template-rows: 1fr;
+  }
+}
+
+@media (min-width: 750px) {
+  .c2 {
+    text-align: left;
+  }
+}
+
+@media (min-width: 750px) {
+  .c3 {
+    justify-content: flex-end;
+  }
+}
+
+@media (min-width: 750px) {
+  .c8 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    gap: 2rem;
+  }
+}
+
+<div>
+  <header>
+    <div
+      class="c0 c1"
+    >
+      <h1
+        class="c2"
+      >
+        Star Wars Characters
+      </h1>
+      <form
+        class="c3"
+        role="search"
+      >
+        <label
+          class="c4"
+          for=":r4:"
+        >
+          <span
+            style="display: inline-block; position: absolute; overflow: hidden; height: 1px; width: 1px; margin: -1px; padding: 0px; border: 0px;"
+          >
+            Search for Star Wars characters by name
+          </span>
+          <input
+            aria-label="Search for Star Wars characters by name"
+            class="c5"
+            data-testid="search-input-testid"
+            id=":r4:"
+            name="search"
+            placeholder="Search by character name"
+            type="search"
+            value=""
+          />
+        </label>
+        <button
+          aria-label="Search for Star Wars characters by name"
+          class="c6"
+          data-testid="search-form-submit-testid"
+          type="submit"
+        >
+          <svg
+            aria-label="Search for Star Wars characters by name"
+            fill="none"
+            height="24"
+            stroke="#5da647"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            viewBox="0 0 24 24"
+            width="24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <circle
+              cx="11"
+              cy="11"
+              r="8"
+            />
+            <line
+              x1="21"
+              x2="16.65"
+              y1="21"
+              y2="16.65"
+            />
+          </svg>
+        </button>
+      </form>
+    </div>
+  </header>
+  <main
+    class="c7"
+  >
+    <div
+      class="c0 c8"
+    >
+      <section>
+        <div
+          class="c9"
+        >
+          <div
+            aria-labelledby="error-message-title"
+            aria-live="assertive"
+            class="c9"
+            role="alert"
+          >
+            <h2
+              id="error-message-title"
+            >
+              Error: Unable to complete search
+            </h2>
+            <p>
+              There was a problem processing your request. Please try again.
+            </p>
+            <button
+              aria-label="try again"
+              class="c10"
+              data-testid="try-again-testid"
+              id="try-again-button"
+            >
+              Try Again
+              <svg
+                fill="none"
+                height="24"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                viewBox="0 0 24 24"
+                width="24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <polyline
+                  points="1 4 1 10 7 10"
+                />
+                <path
+                  d="M3.51 15a9 9 0 1 0 2.13-9.36L1 10"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+  <div>
+    Footer
+  </div>
+</div>
+`;
+
+exports[`<Home /> > when there are no results > renders an empty results message 1`] = `
+.c4 {
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: auto;
+  display: flex;
+  align-items: stretch;
+  justify-content: stretch;
+}
+
+.c5 {
+  flex: 1;
+  background-color: white;
+  border: 2px solid #e9ecee;
+  border-radius: 5px;
+  padding: 0.8rem;
+  cursor: auto;
+}
+
+.c0 {
+  width: clamp(16rem,95vw,90rem);
+}
+
+.c1 {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr auto;
+  margin: 0 auto;
+  padding: 1rem 1rem;
+  gap: 1rem;
+}
+
+.c2 {
+  text-align: center;
+}
+
+.c3 {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.c6 {
+  border-radius: 5px;
+  padding: 1rem;
+  cursor: pointer;
+  background-color: white;
+  border: 2px solid #e9ecee;
+}
+
+.c9 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  text-align: center;
+}
+
+.c7 {
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: auto;
+  background-color: #e9ecee;
+}
+
+.c8 {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  height: 100%;
+}
+
+@media (min-width: 750px) {
+  .c4 {
+    flex-grow: 0.6;
+  }
+}
+
+@media (min-width: 750px) {
+  .c1 {
+    grid-template-columns: minmax(max-content,1fr) 1fr;
+    grid-template-rows: 1fr;
+  }
+}
+
+@media (min-width: 750px) {
+  .c2 {
+    text-align: left;
+  }
+}
+
+@media (min-width: 750px) {
+  .c3 {
+    justify-content: flex-end;
+  }
+}
+
+@media (min-width: 750px) {
+  .c8 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    gap: 2rem;
+  }
+}
+
+<div>
+  <header>
+    <div
+      class="c0 c1"
+    >
+      <h1
+        class="c2"
+      >
+        Star Wars Characters
+      </h1>
+      <form
+        class="c3"
+        role="search"
+      >
+        <label
+          class="c4"
+          for=":r5:"
+        >
+          <span
+            style="display: inline-block; position: absolute; overflow: hidden; height: 1px; width: 1px; margin: -1px; padding: 0px; border: 0px;"
+          >
+            Search for Star Wars characters by name
+          </span>
+          <input
+            aria-label="Search for Star Wars characters by name"
+            class="c5"
+            data-testid="search-input-testid"
+            id=":r5:"
+            name="search"
+            placeholder="Search by character name"
+            type="search"
+            value=""
+          />
+        </label>
+        <button
+          aria-label="Search for Star Wars characters by name"
+          class="c6"
+          data-testid="search-form-submit-testid"
+          type="submit"
+        >
+          <svg
+            aria-label="Search for Star Wars characters by name"
+            fill="none"
+            height="24"
+            stroke="#5da647"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            viewBox="0 0 24 24"
+            width="24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <circle
+              cx="11"
+              cy="11"
+              r="8"
+            />
+            <line
+              x1="21"
+              x2="16.65"
+              y1="21"
+              y2="16.65"
+            />
+          </svg>
+        </button>
+      </form>
+    </div>
+  </header>
+  <main
+    class="c7"
+  >
+    <div
+      class="c0 c8"
+    >
+      <section>
+        <div
+          class="c9"
+        >
+          <div
+            aria-labelledby="no-results-title"
+            aria-live="assertive"
+            class="c9"
+            data-testid="no-results-message-testid"
+            role="status"
+          >
+            <h2
+              id="no-results-title"
+            >
+              No Results Found
+            </h2>
+            <p>
+              We're sorry, but no results matched your search criteria. Please try again with different keywords.
+            </p>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+  <div>
+    Footer
+  </div>
+</div>
+`;
+
+exports[`<Home /> > when useGetPeople is loading > renders a loading message 1`] = `
+.c4 {
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: auto;
+  display: flex;
+  align-items: stretch;
+  justify-content: stretch;
+}
+
+.c5 {
+  flex: 1;
+  background-color: #e9ecee;
+  border: 2px solid #e9ecee;
+  border-radius: 5px;
+  padding: 0.8rem;
+  cursor: not-allowed;
+}
+
+.c0 {
+  width: clamp(16rem,95vw,90rem);
+}
+
+.c1 {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr auto;
+  margin: 0 auto;
+  padding: 1rem 1rem;
+  gap: 1rem;
+}
+
+.c2 {
+  text-align: center;
+}
+
+.c3 {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.c6 {
+  border-radius: 5px;
+  padding: 1rem;
+  cursor: not-allowed;
+  background-color: #e9ecee;
+  border: 2px solid #e9ecee;
+}
+
+.c9 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  text-align: center;
+}
+
+.c10 {
+  appearance: none;
+  display: block;
+  background: none;
+  width: 1em;
+  height: 1em;
+  border: 0;
+  background-image: url("data:image/svg+xml,%3Csvg%20viewBox%3D'-33%20-33%2066%2066'%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%3E%0A%20%20%3Cdefs%3E%0A%20%20%20%20%3ClinearGradient%20id%3D'fadeGradient'%20x1%3D'0%25'%20y1%3D'0%25'%20x2%3D'100%25'%20y2%3D'0%25'%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D'0%25'%20style%3D'stop-color%3A%235da647%3B%20stop-opacity%3A1'%20%2F%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D'100%25'%20style%3D'stop-color%3A%235da647%3B%20stop-opacity%3A0'%20%2F%3E%0A%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%3C%2Fdefs%3E%0A%20%20%3Ccircle%20fill%3D'none'%20stroke-width%3D'6'%20stroke-dasharray%3D'200'%20stroke%3D'url(%23fadeGradient)'%20stroke-dashoffset%3D'56'%20r%3D'30'%2F%3E%0A%3C%2Fsvg%3E");
+  width: 6em;
+  height: 6em;
+  animation: spin 1.5s linear infinite;
+}
+
+.c10::-moz-progress-bar {
+  background: none;
+}
+
+.c10::-webkit-progress-bar {
+  display: none;
+}
+
+.c7 {
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: auto;
+  background-color: #e9ecee;
+}
+
+.c8 {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  height: 100%;
+}
+
+@media (min-width: 750px) {
+  .c4 {
+    flex-grow: 0.6;
+  }
+}
+
+@media (min-width: 750px) {
+  .c1 {
+    grid-template-columns: minmax(max-content,1fr) 1fr;
+    grid-template-rows: 1fr;
+  }
+}
+
+@media (min-width: 750px) {
+  .c2 {
+    text-align: left;
+  }
+}
+
+@media (min-width: 750px) {
+  .c3 {
+    justify-content: flex-end;
+  }
+}
+
+@media (min-width: 750px) {
+  .c8 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    gap: 2rem;
+  }
+}
+
+<div>
+  <header>
+    <div
+      class="c0 c1"
+    >
+      <h1
+        class="c2"
+      >
+        Star Wars Characters
+      </h1>
+      <form
+        class="c3"
+        role="search"
+      >
+        <label
+          class="c4"
+          for=":r6:"
+        >
+          <span
+            style="display: inline-block; position: absolute; overflow: hidden; height: 1px; width: 1px; margin: -1px; padding: 0px; border: 0px;"
+          >
+            Search for Star Wars characters by name
+          </span>
+          <input
+            aria-label="Search for Star Wars characters by name"
+            class="c5"
+            data-testid="search-input-testid"
+            disabled=""
+            id=":r6:"
+            name="search"
+            placeholder="Search by character name"
+            type="search"
+            value=""
+          />
+        </label>
+        <button
+          aria-label="Search for Star Wars characters by name"
+          class="c6"
+          data-testid="search-form-submit-testid"
+          disabled=""
+          type="submit"
+        >
+          <svg
+            aria-label="Search for Star Wars characters by name"
+            fill="none"
+            height="24"
+            stroke="#5da647"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            viewBox="0 0 24 24"
+            width="24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <circle
+              cx="11"
+              cy="11"
+              r="8"
+            />
+            <line
+              x1="21"
+              x2="16.65"
+              y1="21"
+              y2="16.65"
+            />
+          </svg>
+        </button>
+      </form>
+    </div>
+  </header>
+  <main
+    class="c7"
+  >
+    <div
+      class="c0 c8"
+    >
+      <section>
+        <div
+          class="c9"
+        >
+          <div
+            aria-labelledby="loading-message-title"
+            aria-live="assertive"
+            class="c9"
+            data-testid="loading-message-testid"
+            role="status"
+          >
+            <h2
+              id="loading-message-title"
+            >
+              Loading...
+            </h2>
+            <label>
+              <progress
+                aria-label="Please wait while we fetch your search results."
+                class="c10"
+              />
+            </label>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+  <div>
+    Footer
+  </div>
+</div>
+`;

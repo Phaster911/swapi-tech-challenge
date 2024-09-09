@@ -1,0 +1,66 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`<CharacterTableData /> > renders the component 1`] = `
+.c0 {
+  --radius: calc(5px * 2);
+  padding: 0.5rem;
+  display: grid;
+  grid-template-columns: 15ch auto;
+  gap: 0.5rem;
+  text-align: left;
+}
+
+.c0:first-child {
+  border-top-left-radius: var(--radius);
+  border-top-right-radius: var(--radius);
+}
+
+.c0:last-child {
+  border-bottom-left-radius: var(--radius);
+  border-bottom-right-radius: var(--radius);
+}
+
+.c0::before {
+  content: attr(data-cell) ": ";
+  text-transform: capitalize;
+  font-weight: 700;
+}
+
+@media (min-width: 750px) {
+  .c0 {
+    display: revert;
+    padding: 1rem 0.5rem;
+  }
+
+  .c0::before {
+    display: none;
+  }
+
+  .c0:first-child {
+    border-top-left-radius: var(--radius);
+    border-bottom-left-radius: var(--radius);
+    border-top-right-radius: 0;
+  }
+
+  .c0:last-child {
+    border-top-right-radius: var(--radius);
+    border-bottom-right-radius: var(--radius);
+    border-bottom-left-radius: 0;
+  }
+}
+
+<div>
+  <table>
+    <tbody>
+      <tr>
+        <td
+          class="c0"
+          data-cell="field"
+        >
+          ABC
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+`;

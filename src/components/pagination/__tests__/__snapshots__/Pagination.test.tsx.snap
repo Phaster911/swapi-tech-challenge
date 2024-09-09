@@ -1,0 +1,508 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`<Pagination /> > renders the component 1`] = `
+.c0 {
+  display: flex;
+  justify-content: center;
+}
+
+.c2 {
+  padding: 0.5rem;
+  cursor: pointer;
+  margin-left: 0.2rem;
+  margin-right: 0.2rem;
+  width: 2rem;
+  border-radius: 5px;
+  border: none;
+  background-color: white;
+}
+
+.c2:disabled {
+  background-color: #bfbfbf;
+  cursor: not-allowed;
+}
+
+.c3 {
+  padding: 0.5rem;
+  cursor: pointer;
+  margin-left: 0.2rem;
+  margin-right: 0.2rem;
+  width: 2rem;
+  border-radius: 5px;
+  border: none;
+  background-color: #5da647;
+}
+
+.c3:disabled {
+  background-color: #bfbfbf;
+  cursor: not-allowed;
+}
+
+.c1 {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+
+@media (min-width: 750px) {
+  .c2 {
+    margin-left: 0.25rem;
+    margin-right: 0.25rem;
+    width: 2.5rem;
+  }
+}
+
+@media (min-width: 750px) {
+  .c3 {
+    margin-left: 0.25rem;
+    margin-right: 0.25rem;
+    width: 2.5rem;
+  }
+}
+
+<div>
+  <section
+    class="c0"
+  >
+    <nav
+      aria-label="Pagination Navigation"
+      role="navigation"
+    >
+      <ol
+        class="c1"
+      >
+        <li>
+          <button
+            class="c2"
+            data-testid="pagination-previous-button-testid"
+            disabled=""
+          >
+            <svg
+              aria-label="Previous Page"
+              fill="none"
+              height="24"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              viewBox="0 0 24 24"
+              width="24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <polyline
+                points="15 18 9 12 15 6"
+              />
+            </svg>
+            <span
+              style="display: inline-block; position: absolute; overflow: hidden; height: 1px; width: 1px; margin: -1px; padding: 0px; border: 0px;"
+            >
+              Previous Page
+            </span>
+          </button>
+        </li>
+        <li>
+          <button
+            aria-current="true"
+            aria-label="Page 1"
+            class="c3"
+            data-testid="pagination-1-button-testid"
+          >
+            1
+          </button>
+        </li>
+        <li>
+          <button
+            class="c2"
+            data-testid="pagination-next-button-testid"
+            disabled=""
+          >
+            <svg
+              aria-label="Next Page"
+              fill="none"
+              height="24"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              viewBox="0 0 24 24"
+              width="24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <polyline
+                points="9 18 15 12 9 6"
+              />
+            </svg>
+            <span
+              style="display: inline-block; position: absolute; overflow: hidden; height: 1px; width: 1px; margin: -1px; padding: 0px; border: 0px;"
+            >
+              Next Page
+            </span>
+          </button>
+        </li>
+      </ol>
+    </nav>
+  </section>
+</div>
+`;
+
+exports[`<Pagination /> > when there are multiple pages > and the current page is the first > the previous page button is disabled 1`] = `
+.c0 {
+  display: flex;
+  justify-content: center;
+}
+
+.c2 {
+  padding: 0.5rem;
+  cursor: pointer;
+  margin-left: 0.2rem;
+  margin-right: 0.2rem;
+  width: 2rem;
+  border-radius: 5px;
+  border: none;
+  background-color: white;
+}
+
+.c2:disabled {
+  background-color: #bfbfbf;
+  cursor: not-allowed;
+}
+
+.c3 {
+  padding: 0.5rem;
+  cursor: pointer;
+  margin-left: 0.2rem;
+  margin-right: 0.2rem;
+  width: 2rem;
+  border-radius: 5px;
+  border: none;
+  background-color: #5da647;
+}
+
+.c3:disabled {
+  background-color: #bfbfbf;
+  cursor: not-allowed;
+}
+
+.c4 {
+  display: inline-block;
+  padding: 0.5rem 0 0 0;
+  cursor: default;
+  margin-left: 0.2rem;
+  margin-right: 0.2rem;
+  min-width: 1rem;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.c1 {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+
+@media (min-width: 750px) {
+  .c2 {
+    margin-left: 0.25rem;
+    margin-right: 0.25rem;
+    width: 2.5rem;
+  }
+}
+
+@media (min-width: 750px) {
+  .c3 {
+    margin-left: 0.25rem;
+    margin-right: 0.25rem;
+    width: 2.5rem;
+  }
+}
+
+<div>
+  <section
+    class="c0"
+  >
+    <nav
+      aria-label="Pagination Navigation"
+      role="navigation"
+    >
+      <ol
+        class="c1"
+      >
+        <li>
+          <button
+            class="c2"
+            data-testid="pagination-previous-button-testid"
+            disabled=""
+          >
+            <svg
+              aria-label="Previous Page"
+              fill="none"
+              height="24"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              viewBox="0 0 24 24"
+              width="24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <polyline
+                points="15 18 9 12 15 6"
+              />
+            </svg>
+            <span
+              style="display: inline-block; position: absolute; overflow: hidden; height: 1px; width: 1px; margin: -1px; padding: 0px; border: 0px;"
+            >
+              Previous Page
+            </span>
+          </button>
+        </li>
+        <li>
+          <button
+            aria-current="true"
+            aria-label="Page 1"
+            class="c3"
+            data-testid="pagination-1-button-testid"
+          >
+            1
+          </button>
+        </li>
+        <li>
+          <button
+            aria-label="Page 2"
+            class="c2"
+            data-testid="pagination-2-button-testid"
+          >
+            2
+          </button>
+        </li>
+        <li>
+          <span
+            aria-label="ellipsis indicating non-visible pages"
+            class="c4"
+          >
+            ...
+          </span>
+        </li>
+        <li>
+          <button
+            aria-label="Page 10"
+            class="c2"
+            data-testid="pagination-10-button-testid"
+          >
+            10
+          </button>
+        </li>
+        <li>
+          <button
+            class="c2"
+            data-testid="pagination-next-button-testid"
+          >
+            <svg
+              aria-label="Next Page"
+              fill="none"
+              height="24"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              viewBox="0 0 24 24"
+              width="24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <polyline
+                points="9 18 15 12 9 6"
+              />
+            </svg>
+            <span
+              style="display: inline-block; position: absolute; overflow: hidden; height: 1px; width: 1px; margin: -1px; padding: 0px; border: 0px;"
+            >
+              Next Page
+            </span>
+          </button>
+        </li>
+      </ol>
+    </nav>
+  </section>
+</div>
+`;
+
+exports[`<Pagination /> > when there are multiple pages > and the current page is the last > the next page button is disabled 1`] = `
+.c0 {
+  display: flex;
+  justify-content: center;
+}
+
+.c2 {
+  padding: 0.5rem;
+  cursor: pointer;
+  margin-left: 0.2rem;
+  margin-right: 0.2rem;
+  width: 2rem;
+  border-radius: 5px;
+  border: none;
+  background-color: white;
+}
+
+.c2:disabled {
+  background-color: #bfbfbf;
+  cursor: not-allowed;
+}
+
+.c4 {
+  padding: 0.5rem;
+  cursor: pointer;
+  margin-left: 0.2rem;
+  margin-right: 0.2rem;
+  width: 2rem;
+  border-radius: 5px;
+  border: none;
+  background-color: #5da647;
+}
+
+.c4:disabled {
+  background-color: #bfbfbf;
+  cursor: not-allowed;
+}
+
+.c3 {
+  display: inline-block;
+  padding: 0.5rem 0 0 0;
+  cursor: default;
+  margin-left: 0.2rem;
+  margin-right: 0.2rem;
+  min-width: 1rem;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.c1 {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+
+@media (min-width: 750px) {
+  .c2 {
+    margin-left: 0.25rem;
+    margin-right: 0.25rem;
+    width: 2.5rem;
+  }
+}
+
+@media (min-width: 750px) {
+  .c4 {
+    margin-left: 0.25rem;
+    margin-right: 0.25rem;
+    width: 2.5rem;
+  }
+}
+
+<div>
+  <section
+    class="c0"
+  >
+    <nav
+      aria-label="Pagination Navigation"
+      role="navigation"
+    >
+      <ol
+        class="c1"
+      >
+        <li>
+          <button
+            class="c2"
+            data-testid="pagination-previous-button-testid"
+          >
+            <svg
+              aria-label="Previous Page"
+              fill="none"
+              height="24"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              viewBox="0 0 24 24"
+              width="24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <polyline
+                points="15 18 9 12 15 6"
+              />
+            </svg>
+            <span
+              style="display: inline-block; position: absolute; overflow: hidden; height: 1px; width: 1px; margin: -1px; padding: 0px; border: 0px;"
+            >
+              Previous Page
+            </span>
+          </button>
+        </li>
+        <li>
+          <button
+            aria-label="Page 1"
+            class="c2"
+            data-testid="pagination-1-button-testid"
+          >
+            1
+          </button>
+        </li>
+        <li>
+          <span
+            aria-label="ellipsis indicating non-visible pages"
+            class="c3"
+          >
+            ...
+          </span>
+        </li>
+        <li>
+          <button
+            aria-label="Page 9"
+            class="c2"
+            data-testid="pagination-9-button-testid"
+          >
+            9
+          </button>
+        </li>
+        <li>
+          <button
+            aria-current="true"
+            aria-label="Page 10"
+            class="c4"
+            data-testid="pagination-10-button-testid"
+          >
+            10
+          </button>
+        </li>
+        <li>
+          <button
+            class="c2"
+            data-testid="pagination-next-button-testid"
+            disabled=""
+          >
+            <svg
+              aria-label="Next Page"
+              fill="none"
+              height="24"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              viewBox="0 0 24 24"
+              width="24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <polyline
+                points="9 18 15 12 9 6"
+              />
+            </svg>
+            <span
+              style="display: inline-block; position: absolute; overflow: hidden; height: 1px; width: 1px; margin: -1px; padding: 0px; border: 0px;"
+            >
+              Next Page
+            </span>
+          </button>
+        </li>
+      </ol>
+    </nav>
+  </section>
+</div>
+`;
